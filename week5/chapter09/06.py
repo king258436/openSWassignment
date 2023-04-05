@@ -9,4 +9,3 @@ a=20
 
 func1()
 func2()
-week5/chapter09/
