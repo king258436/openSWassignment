@@ -8,6 +8,9 @@ class FixedStack:
 
     class Full(Exception):
         pass
+    
+    def is_empty(self) -> bool:
+        return self.ptr <=0
 
     def __init__(self, capacity: int = 256) -> None:
         self.stk = [None]*capacity
